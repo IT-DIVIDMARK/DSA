@@ -39,7 +39,7 @@ void dfs(int m[10][10],int n,int v)
 	int w;
 	static int visited[20]={0};
 	visited[v]=1;
-	printf("v%d`",v+1);
+	printf("v%d",v+1);
 	for(w=0;w<n;w++)
 	{
 		if((m[v][w]==1)&&(visited[w]==0))
